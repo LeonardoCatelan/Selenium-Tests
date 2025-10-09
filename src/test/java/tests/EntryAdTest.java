@@ -45,7 +45,7 @@ public class EntryAdTest {
     @After
     public void tearDown()
     {
-        driver.close();
+        driver.quit();
     }
 
 }
